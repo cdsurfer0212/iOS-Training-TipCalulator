@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B203A2C21B25E8F50074DBC8 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B203A2C11B25E8F50074DBC8 /* MyCell.xib */; };
 		B233CC161B23438900C3F07A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B233CC151B23438900C3F07A /* main.m */; };
 		B233CC191B23438900C3F07A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B233CC181B23438900C3F07A /* AppDelegate.m */; };
 		B233CC1C1B23438900C3F07A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B233CC1B1B23438900C3F07A /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		B233CC211B23438900C3F07A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B233CC201B23438900C3F07A /* Images.xcassets */; };
 		B233CC241B23438900C3F07A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B233CC221B23438900C3F07A /* LaunchScreen.xib */; };
 		B233CC301B23438900C3F07A /* TipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B233CC2F1B23438900C3F07A /* TipCalculatorTests.m */; };
+		B233CC3C1B2449D700C3F07A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B233CC3A1B2449D700C3F07A /* SettingsViewController.m */; };
+		B233CC3D1B2449D700C3F07A /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B233CC3B1B2449D700C3F07A /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B203A2C11B25E8F50074DBC8 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
 		B233CC101B23438900C3F07A /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B233CC141B23438900C3F07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B233CC151B23438900C3F07A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,9 @@
 		B233CC291B23438900C3F07A /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B233CC2E1B23438900C3F07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B233CC2F1B23438900C3F07A /* TipCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalculatorTests.m; sourceTree = "<group>"; };
+		B233CC391B2449D700C3F07A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B233CC3A1B2449D700C3F07A /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		B233CC3B1B2449D700C3F07A /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,10 @@
 				B233CC201B23438900C3F07A /* Images.xcassets */,
 				B233CC221B23438900C3F07A /* LaunchScreen.xib */,
 				B233CC131B23438900C3F07A /* Supporting Files */,
+				B233CC391B2449D700C3F07A /* SettingsViewController.h */,
+				B233CC3A1B2449D700C3F07A /* SettingsViewController.m */,
+				B233CC3B1B2449D700C3F07A /* SettingsViewController.xib */,
+				B203A2C11B25E8F50074DBC8 /* MyCell.xib */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -202,6 +213,8 @@
 				B233CC1F1B23438900C3F07A /* Main.storyboard in Resources */,
 				B233CC241B23438900C3F07A /* LaunchScreen.xib in Resources */,
 				B233CC211B23438900C3F07A /* Images.xcassets in Resources */,
+				B233CC3D1B2449D700C3F07A /* SettingsViewController.xib in Resources */,
+				B203A2C21B25E8F50074DBC8 /* MyCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +235,7 @@
 				B233CC1C1B23438900C3F07A /* ViewController.m in Sources */,
 				B233CC191B23438900C3F07A /* AppDelegate.m in Sources */,
 				B233CC161B23438900C3F07A /* main.m in Sources */,
+				B233CC3C1B2449D700C3F07A /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,8 +364,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,8 +376,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -418,6 +436,7 @@
 				B233CC351B23438900C3F07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B233CC361B23438900C3F07A /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +445,7 @@
 				B233CC381B23438900C3F07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

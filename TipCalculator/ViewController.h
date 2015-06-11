@@ -10,6 +10,18 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *billTextField;
+@property (strong, nonatomic) IBOutlet UILabel *billTitleLabel;
+@property (strong, nonatomic) IBOutlet UIView *dividerView;
+@property (strong, nonatomic) IBOutlet UILabel *tipLabel;
+@property (strong, nonatomic) IBOutlet UILabel *tipTitleLabel;
+@property (strong, nonatomic) IBOutlet UILabel *totalLabel;
+@property (strong, nonatomic) IBOutlet UILabel *totalTitleLabel;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *tipControl;
+
+- (IBAction)onTap:(id)sender;
+
+- (void)updateValues;
 
 @end
 
